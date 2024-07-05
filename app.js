@@ -16,7 +16,9 @@ const searchInput = document.querySelector(".header__search");
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
 const API_KEY = "5571ec13e62387825c5adb7630316251";
 const DATETIME_API = "https://timeapi.io/api/Time/current/coordinate";
-const CORS_PROXY = "https://corsproxy.io/?";
+//const CORS_PROXY = "https://corsproxy.io/?";
+const CORS_PROXY = "https://api.codetabs.com/v1/proxy?quest=";
+//const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
 const ICON_URL = "https://openweathermap.org/img/wn";
 
 let currentWeatherData = [];
