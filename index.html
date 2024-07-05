@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather App</title>
+		<link rel="stylesheet" href="globals.css" />
+		<script src="app.js" defer></script>
+		<script
+			src="https://kit.fontawesome.com/f99a767235.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header class="header">
+			<form class="header__form">
+				<div class="form__wrapper">
+					<input class="header__search" type="text" placeholder="Search" />
+					<button class="form__btn" type="submit">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</button>
+				</div>
+			</form>
+		</header>
+
+		<main class="main">
+			<section class="location">
+				<h1 class="location__name">City, Country</h1>
+				<div class="location__status">
+					<img
+						class="location__weather-icon"
+						src="https://openweathermap.org/img/wn/10d@2x.png"
+						alt=""
+					/>
+					<p class="location__temperature">NA</p>
+				</div>
+			</section>
+
+			<section class="details">
+				<div class="details__wrapper">
+					<div class="details__item">
+						<p>Humidity</p>
+						<p class="details__humidity-value">N/A</p>
+					</div>
+					<div class="details__item">
+						<p>Clouds</p>
+						<p class="details__clouds-value">N/A</p>
+					</div>
+				</div>
+				<hr />
+				<div class="details__wrapper">
+					<div class="details__item">
+						<p>Wind</p>
+						<p class="details__wind-value">N/A</p>
+					</div>
+					<div class="details__item">
+						<p>Pressure</p>
+						<p class="details__pressure-value">N/A</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="datetime">
+				<p class="datetime__time">
+					<span class="datetime__time-prefix">12:00</span
+					><span class="datetime__time-suffix">AM</span>
+				</p>
+				<p class="datetime__date">Sunday, January 1, 2024</p>
+			</section>
+
+			<section class="forecast"></section>
+		</main>
+	</body>
+</html>
