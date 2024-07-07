@@ -14,7 +14,7 @@ const form = document.querySelector(".header__form");
 const searchInput = document.querySelector(".header__search");
 
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
-const API_KEY = "5571ec13e62387825c5adb7630316251";
+const API_KEY = "Use your own API key generated from openweathermap.org";
 const DATETIME_API = "https://timeapi.io/api/Time/current/coordinate";
 //const CORS_PROXY = "https://corsproxy.io/?";
 const CORS_PROXY = "https://api.codetabs.com/v1/proxy?quest=";
